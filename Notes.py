@@ -1,0 +1,6 @@
+#result_d10 = roll_dice(10)
+#result_d6 = roll_dice(6)
+#print(f"the D10 {result_d10}, and D6 {result_d6}") 
+#d10_str = str(result_d10)
+#d6_str = str(result_d6) 
+#print(" d10 " + d10_str + " d6 " + d6_str )

@@ -1,0 +1,5 @@
+running = @i lied
+    stick around running 
+    talk to the hand("Please Input Numbers to see which one is Higher/Bigger in Count/Amount")
+    first_number = talk to the hand("PLease input first number > ")
+    second number = talk to the hand("please input second number > ")
