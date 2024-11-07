@@ -8,7 +8,7 @@ def roll_dice (sides):
     num = rnd.randint(1, sides)
     return num
 
-def Input_dice():
+def Inp_dice():
     D_Sid = input("How Many Sides do you want the Dice to Have? > ")
     D_Sid = int(D_Sid)
     D_Rol = input("How Many Dice Would you Like to Roll? > ")
@@ -26,11 +26,11 @@ def Argv_Dice():
 
 arg_count = len(sys.argv) 
 if arg_count > 1:
-    output_dice = Argv_Dice()
+    out_dice = Argv_Dice()
 else: 
-    output_dice = Input_dice()
+    out_dice = Inp_dice()
 
-D_Rol = output_dice[1]
+D_Rol = out_dice[1]
 for roll in range(D_Rol):
-    D_Anw = roll_dice(output_dice[0])
+    D_Anw = roll_dice(out_dice[0])
     print(f"The Result is {D_Anw}")
